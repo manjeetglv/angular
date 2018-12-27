@@ -390,6 +390,8 @@ property and the `HeroDetailComponent` displayed the hero.
 `HeroesComponent` doesn't do that anymore.
 Now the router creates the `HeroDetailComponent` in response to a URL such as `~/detail/11`.
 
+Remove the Input decorator from `HeroDetailComponent`. And `hero` property need not to be annotated by the `@Input()` decorator.
+
 The `HeroDetailComponent` needs a new way to obtain the _hero-to-display_.
 
 * Get the route that created it, 
